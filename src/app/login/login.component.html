@@ -1,0 +1,5 @@
+<ActionBar title="Go página Items" (tap)="goItems()"> </ActionBar>
+<WebView #opa [src]="webViewSrc" 
+         (loadStarted)="onLoadStarted($event)" 
+         (loadFinished)="onLoadFinished($event)">
+</WebView>
